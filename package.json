@@ -2,7 +2,7 @@
   "name": "todo_mern",
   "version": "1.0.0",
   "description": "todo app built with mern",
-  "main": "index.js",
+  "main": "index.ts",
   "author": "Alexandru Bangau <rammazzoti2000@gmail.com>",
   "license": "MIT",
   "scripts": {
