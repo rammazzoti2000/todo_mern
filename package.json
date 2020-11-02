@@ -2,7 +2,7 @@
   "name": "todo_mern",
   "version": "1.0.0",
   "description": "todo app built with mern",
-  "main": "index.js",
+  "main": "index.ts",
   "author": "Alexandru Bangau <rammazzoti2000@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -10,6 +10,7 @@
     "start": "concurrently \"tsc -w\" \"nodemon dist/js/app.js\""
   },
   "dependencies": {
+    "axios": "^0.21.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.10.11",
